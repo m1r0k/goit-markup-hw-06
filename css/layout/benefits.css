@@ -5,6 +5,7 @@
 .benefits-list {
     display: flex;
     row-gap: 72px;
+    align-items: center;
 }
 
 .header-two {
@@ -49,7 +50,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: stretch;
-        align-items: center;
         column-gap: 24px;
     }
 
