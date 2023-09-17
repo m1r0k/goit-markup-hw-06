@@ -26,7 +26,7 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
 
 .hero-section {
     max-width: 100%;
-    background: rgba(46, 47, 66, 1);
+    background-color: rgba(46, 47, 66, 1);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
