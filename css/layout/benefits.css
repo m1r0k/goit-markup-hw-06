@@ -1,0 +1,107 @@
+.benefits-section {
+    padding: 96px 0;
+}
+
+.benefits-list {
+    display: flex;
+    row-gap: 72px;
+}
+
+.header-two {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.header-three {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.benefits-list-title {
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .benefits-list {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .benefits-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: stretch;
+        align-items: center;
+        column-gap: 24px;
+    }
+
+    .benefits-list-item {
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .benefits-list-item-icon {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .benefits-section {
+        padding: 120px 0;
+    }
+
+    .benefits-list {
+        gap: 24px;
+    }
+
+    .benefits-list-item {
+        width: calc((100% - 3*24px) / 4);
+    }
+
+    .benefits-list-item-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4fd;
+        width: 264px;
+        height: 112px;
+        border: 1px solid rgba(142, 143, 153, 1);
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+
+    .benefits-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-three {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .paragraph {
+        font-weight: 400;
+    }
+}
