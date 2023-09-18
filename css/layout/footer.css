@@ -145,7 +145,7 @@
     background-color: #404BBF;
 }
 
-@media screen and (max-width: 757px) {
+@media screen and (max-width: 767px) {
     .page-footer-container {
         align-items: center;
         flex-direction: column;
