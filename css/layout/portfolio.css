@@ -28,6 +28,10 @@
     border-top: none;
 }
 
+.portfolio-list-item-text .paragraph {
+    margin-bottom: 0;
+}
+
 .portfolio-list-img-wrapper {
     position: relative;
     overflow: hidden;
@@ -91,6 +95,11 @@
     .portfolio-list-item {
         width: calc((100% - 48px) / 3);
     }
+
+    .portfolio-list-item-text .header-three {
+        font-weight: 500;
+    }
+
 
     .photo {
         width: 360px;

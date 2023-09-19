@@ -18,20 +18,21 @@
     text-transform: capitalize;
 }
 
-.paragraph {
-    font-weight: 400;
+.benefits-list-item .paragraph {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.benefits-list-title {
+.benefits-list-item .header-three {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -59,11 +60,6 @@
     .benefits-list-item-icon {
         display: none;
     }
-
-    .paragraph {
-        font-weight: 500;
-    }
-
 }
 
 @media screen and (min-width: 1158px) {
@@ -97,7 +93,11 @@
         align-items: center;
     }
 
-    .benefits-list-title {
+    .benefits-list-item .paragraph {
+        font-weight: 400;
+    }
+
+    .benefits-list-item .header-three {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;

@@ -36,10 +36,6 @@
     width: 264px;
 }
 
-.social-icon-container {
-    margin-right: 80px;
-}
-
 .footer-header {
     font-weight: 500;
     font-size: 16px;
@@ -89,10 +85,6 @@
 
 .footer-form {
     display: flex;
-    gap: 24px;
-}
-
-.footer-form-label {
     gap: 24px;
 }
 
@@ -184,7 +176,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .page-footer-container {
-        margin-left: 108px;
+        /* width: 584px; */
+        margin: 0;
+        padding-left: 108px;
         flex-wrap: wrap;
     }
 
@@ -198,8 +192,18 @@
         padding: 100px 0;
     }
 
+    .page-footer-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .footer-logo-container {
         margin-right: 120px;
         margin-bottom: 0;
     }
+
+    .social-icon-container {
+        margin-right: 80px;
+    }
+
 }
