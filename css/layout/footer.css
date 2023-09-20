@@ -176,9 +176,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .page-footer-container {
-        /* width: 584px; */
-        margin: 0;
-        padding-left: 108px;
+        width: 584px;
         flex-wrap: wrap;
     }
 
